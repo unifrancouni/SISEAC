@@ -1,0 +1,130 @@
+﻿@model SISEAC.Models.LoginViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSPINIA | Login</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="~/Content/animate.css" rel="stylesheet">
+    <link href="~/Content/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/plugins/sweetalert/")sweetalert.css">
+
+    @Scripts.Render("~/bundles/jquery")
+    <script src="@Url.Content("~/Scripts/")jquery-1.9.1.min.js"></script>
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="middle-box text-center loginscreen  animated fadeInDown">
+        <div>
+            @using (Html.BeginForm("Login", "Login", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                <h4>Welcom in Inspinia App</h4>
+                <small>Use a local account to log in.</small>
+                <hr />
+                @Html.ValidationSummary(true)
+                <div class="form-group">
+                    @Html.LabelFor(m => m.UserName, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @id = "username" })
+                        @Html.ValidationMessageFor(m => m.UserName)
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Password)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-8">
+                        <div class="checkbox">
+                            @*@Html.CheckBoxFor(m => m.RememberMe)
+                            @Html.LabelFor(m => m.RememberMe)*@
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-8">
+                        <input id="btnSubmit" type="submit" value="Log in" class="btn btn-primary" />
+                    </div>
+                </div>
+                @*<p>
+                    @html.actionlink("register", "register") if you don't have a local account.
+                </p>*@
+            }
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="@Url.Content("~/Scripts/plugins/sweetalert/")sweetalert.min.js"></script>
+
+<script src="@Url.Content("~/Scripts/")jquery.signalR-2.2.0.min.js"></script>
+<script src="@Url.Content("~/Scripts/")hubs.js"></script>
+
+@if (!ViewBag.Mensaje.Equals(""))
+{
+    <script charset="iso-8859-1">
+
+        //SI EL BACKEND MANDA QUE EXISTE UN MENSAJE PARA ESTA PANTALLA, MOSTRAR ESE MENSAJE
+
+        $(document).ready(function () {
+            swal({
+                title: "@ViewBag.MensajeTitle", //TITULO
+                text: "@ViewBag.Mensaje", //MENSAJE
+                type: "@ViewBag.MensajeType",  //TIPO
+                html: true,
+                //showCancelButton: true,
+
+                confirmButtonColor: "#DD6B55", //error, si se omite, por defecto es success",
+
+                confirmButtonText: "Aceptar",
+                closeOnConfirm: true
+            }, function () {
+                //swal("Deleted!", "Your imaginary file has been deleted.", "success");
+                @*window.location.href = "@Url.Action("Index", new { catalogoid = @Request.Params["catalogoid"] })";*@
+            });
+        });
+    </script>
+}
+
+<script>
+    $(function () {
+        @*baseurl = "@HttpContext.Current.Request.Url"; //LOCAL/DESARROLLO*@
+        baseurl = "http://wbsrv.usuracero.gob.ni/test/"; //INTERNET
+
+        var chat = $.connection.chatHub;
+        $.connection.hub.url = baseurl+"signalr";
+        chat.client.updateUsers = function (userID) {
+        }
+        chat.client.broadcastMessage = function (message) {
+        }
+        $.connection.hub.start().done(function () {
+        });
+        $('#btnSubmit').click(function () {
+            var username = $('#username').val();
+            chat.server.connect(username);
+        });
+    });
+</script>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,102 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>SISEAC | @ViewBag.Title</title>
+
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/plugins/toastr/")toastr.min.css">
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/font-awesome/css")
+
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/")animate.css">
+
+    @Scripts.Render("~/bundles/jquery")
+    <script src="@Url.Content("~/Scripts/")jquery-1.9.1.min.js"></script>
+
+
+    <meta name="description" content="STD-UNI-ATD" />
+</head>
+<body>
+
+    <!-- Wrapper-->
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        @Html.Partial("_Navigation")
+
+        <!-- Page wraper -->
+        <div id="page-wrapper" class="gray-bg">
+
+            <!-- Top Navbar -->
+            @Html.Partial("_TopNavbar")
+
+            <!-- Main view  -->
+            @RenderBody()
+
+            <!-- Footer -->
+            @Html.Partial("_Footer")
+
+        </div>
+        <!-- End page wrapper-->
+        @*<div class="small-chat-box fadeInRight animated">
+                Algo
+            </div>*@
+
+
+        <div id="small-chat">
+            @*<span class="badge badge-warning pull-right">5</span>*@
+            <div class="dropup">
+                <b data-toggle="dropdown" class="open-small-chat" href="#">
+                    <i class="fa fa-plus"></i>
+
+                </b>
+                <ul class="dropdown-menu animated pull-right fadeInRight m-t-xs">
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="mailbox.html">Mailbox</a></li>
+                    <li class="divider"></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End wrapper-->
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/plugins/metsiMenu")
+    @Scripts.Render("~/plugins/pace")
+    @Scripts.Render("~/plugins/slimScroll")
+    @Scripts.Render("~/bundles/inspinia")
+
+
+    <script src="@Url.Content("~/Scripts/plugins/sweetalert/")sweetalert.min.js"></script>
+    <script src="@Url.Content("~/Scripts/plugins/toastr/")toastr.min.js"></script>
+
+    <script src="@Url.Content("~/Scripts/")jquery.signalR-2.2.0.min.js"></script>
+    <script src="@Url.Content("~/Scripts/")hubs.js"></script>
+    <script src="@Url.Content("~/Scripts/")signalapp.js"></script>
+
+
+    <script>
+        //debugger
+
+        baseurl = "http://localhost:59328/"; //LOCAL/DESARROLLO
+        //baseurl = "http://wbsrv.usuracero.gob.ni/test/"; //INTERNET
+        
+        signalR("@ViewBag.UserName", baseurl)
+    </script>
+
+
+    @RenderSection("styles", required: false)
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>

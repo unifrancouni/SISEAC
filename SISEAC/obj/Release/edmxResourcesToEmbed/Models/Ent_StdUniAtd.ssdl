@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMUSURA0_FrancoNoTocarModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ScaAfiliacion">
+    <Key>
+      <PropertyRef Name="nScaAfiliacionID" />
+    </Key>
+    <Property Name="nScaAfiliacionID" Type="int" Nullable="false" />
+    <Property Name="nStbPersonaID" Type="int" />
+    <Property Name="nStbProfesionID" Type="int" />
+    <Property Name="nStbEstadoCivilID" Type="int" />
+    <Property Name="nInss" Type="int" />
+    <Property Name="sDireccion" Type="varchar" MaxLength="200" />
+    <Property Name="nStbFacultadID" Type="int" />
+    <Property Name="nStbUbicacionLaboralID" Type="int" />
+    <Property Name="nStbCategoriaDocenteID" Type="int" />
+    <Property Name="nStbGradoSuperiorID" Type="int" />
+    <Property Name="nNominaUNI" Type="int" />
+    <Property Name="dFechaIngresoUNI" Type="date" />
+    <Property Name="sObservaciones" Type="varchar" MaxLength="200" />
+    <Property Name="nStbEstadoAfiliacionID" Type="int" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SplActividad">
+    <Key>
+      <PropertyRef Name="nSplActividadID" />
+    </Key>
+    <Property Name="nSplActividadID" Type="int" Nullable="false" />
+    <Property Name="sTitulo" Type="varchar" MaxLength="100" />
+    <Property Name="sCuerpo" Type="text" />
+    <Property Name="dFechaInicio" Type="datetime" />
+    <Property Name="dFechaFin" Type="datetime" />
+    <Property Name="nTipoActividadID" Type="int" />
+    <Property Name="nEstadoActividadID" Type="int" />
+    <Property Name="sUbicacionActividad" Type="varchar" MaxLength="100" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCrecion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SsgCuenta">
+    <Key>
+      <PropertyRef Name="nSsgCuentaID" />
+    </Key>
+    <Property Name="nSsgCuentaID" Type="int" Nullable="false" />
+    <Property Name="sNombreUsuario" Type="varchar" MaxLength="20" />
+    <Property Name="sClave" Type="varchar" MaxLength="50" />
+    <Property Name="sDireccionImagenPerfil" Type="varchar" MaxLength="100" />
+    <Property Name="nActivo" Type="tinyint" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SsgCuentaPermiso">
+    <Key>
+      <PropertyRef Name="nSsgCuentaPermisoID" />
+    </Key>
+    <Property Name="nSsgCuentaPermisoID" Type="int" Nullable="false" />
+    <Property Name="nSsgCuentaID" Type="int" />
+    <Property Name="nSsgPermisoID" Type="int" />
+    <Property Name="nActivo" Type="tinyint" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SsgUsuario">
+    <Key>
+      <PropertyRef Name="nSsgUsuarioID" />
+    </Key>
+    <Property Name="nSsgUsuarioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nSsgCuentaID" Type="int" />
+    <Property Name="nStbPersonaID" Type="int" />
+    <Property Name="nStbCargoPersonaID" Type="int" />
+    <Property Name="nActivo" Type="tinyint" />
+    <Property Name="dFechaExpiracion" Type="date" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StbCatalogo">
+    <Key>
+      <PropertyRef Name="nStbCatalogoID" />
+    </Key>
+    <Property Name="nStbCatalogoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sCodigoInterno" Type="varchar" MaxLength="5" />
+    <Property Name="sDescripcion" Type="varchar" MaxLength="100" />
+    <Property Name="nActivo" Type="int" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StbContactoPersona">
+    <Key>
+      <PropertyRef Name="nStbContactoPersonaID" />
+    </Key>
+    <Property Name="nStbContactoPersonaID" Type="int" Nullable="false" />
+    <Property Name="nStbPersonaID" Type="int" />
+    <Property Name="nTipoContactoID" Type="int" />
+    <Property Name="sDescripcion" Type="varchar" MaxLength="100" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StbParametro">
+    <Key>
+      <PropertyRef Name="nStbPrametroID" />
+    </Key>
+    <Property Name="nStbPrametroID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sCodigoInterno" Type="varchar" MaxLength="4" />
+    <Property Name="sDescripcion" Type="varchar" MaxLength="100" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StbPersona">
+    <Key>
+      <PropertyRef Name="nStbPersonaID" />
+    </Key>
+    <Property Name="nStbPersonaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sNombre" Type="varchar" MaxLength="50" />
+    <Property Name="sApellido1" Type="varchar" MaxLength="50" />
+    <Property Name="sApellido2" Type="varchar" MaxLength="50" />
+    <Property Name="sCedula" Type="varchar" MaxLength="20" />
+    <Property Name="dFechaNacimiento" Type="datetime" />
+    <Property Name="cSexo" Type="varchar" MaxLength="1" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StbValorCatalogo">
+    <Key>
+      <PropertyRef Name="nStbValorCatalogoID" />
+    </Key>
+    <Property Name="nStbValorCatalogoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nStbCatalogoID" Type="int" />
+    <Property Name="sCodigoInterno" Type="varchar" MaxLength="5" />
+    <Property Name="sDescripcion" Type="varchar" MaxLength="100" />
+    <Property Name="nActivo" Type="int" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StbValorParametro">
+    <Key>
+      <PropertyRef Name="nStbValorParametroID" />
+    </Key>
+    <Property Name="nStbValorParametroID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nStbParametroID" Type="int" />
+    <Property Name="sCodigoInterno" Type="varchar" MaxLength="4" />
+    <Property Name="sValor" Type="varchar" MaxLength="50" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StiNoticia">
+    <Key>
+      <PropertyRef Name="nStiNoticiaID" />
+    </Key>
+    <Property Name="nStiNoticiaID" Type="int" Nullable="false" />
+    <Property Name="sTituloNotica" Type="varchar" MaxLength="200" />
+    <Property Name="sCuerpoNoticia" Type="text" />
+    <Property Name="dFechaPublicacion" Type="date" />
+    <Property Name="sUsuarioPublica" Type="int" />
+    <Property Name="nNoticiaImportante" Type="tinyint" />
+    <Property Name="nVisible" Type="tinyint" />
+    <Property Name="sUsuarioCreacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaCreacion" Type="datetime" />
+    <Property Name="sUsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="dFechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StiNotificacion">
+    <Key>
+      <PropertyRef Name="nStiNotificacionID" />
+    </Key>
+    <Property Name="nStiNotificacionID" Type="int" Nullable="false" />
+    <Property Name="nStbTipoNotificacion" Type="int" />
+    <Property Name="nSgrCampoUnionID" Type="int" />
+    <Property Name="dFechaHoraNotificacion" Type="datetime" />
+    <Property Name="nLeida" Type="int" />
+    <Property Name="sDescripcion" Type="varchar" MaxLength="50" />
+    <Property Name="sLinkReferencia" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <Association Name="FK_StbValorCatalogo_StbCatalogo">
+    <End Role="StbCatalogo" Type="Self.StbCatalogo" Multiplicity="0..1" />
+    <End Role="StbValorCatalogo" Type="Self.StbValorCatalogo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbCatalogo">
+        <PropertyRef Name="nStbCatalogoID" />
+      </Principal>
+      <Dependent Role="StbValorCatalogo">
+        <PropertyRef Name="nStbCatalogoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="spGetCargoCuenta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spGetCatalogo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spGetValorCatalogo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nStbCatalogoID" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="SMUSURA0_FrancoNoTocarModelStoreContainer">
+    <EntitySet Name="ScaAfiliacion" EntityType="Self.ScaAfiliacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SplActividad" EntityType="Self.SplActividad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SsgCuenta" EntityType="Self.SsgCuenta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SsgCuentaPermiso" EntityType="Self.SsgCuentaPermiso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SsgUsuario" EntityType="Self.SsgUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StbCatalogo" EntityType="Self.StbCatalogo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StbContactoPersona" EntityType="Self.StbContactoPersona" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StbParametro" EntityType="Self.StbParametro" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StbPersona" EntityType="Self.StbPersona" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StbValorCatalogo" EntityType="Self.StbValorCatalogo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StbValorParametro" EntityType="Self.StbValorParametro" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StiNoticia" EntityType="Self.StiNoticia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StiNotificacion" EntityType="Self.StiNotificacion" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_StbValorCatalogo_StbCatalogo" Association="Self.FK_StbValorCatalogo_StbCatalogo">
+      <End Role="StbCatalogo" EntitySet="StbCatalogo" />
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

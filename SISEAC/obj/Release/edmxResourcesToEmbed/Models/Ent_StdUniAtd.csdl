@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMUSURA0_FrancoNoTocarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ScaAfiliacion">
+    <Key>
+      <PropertyRef Name="nScaAfiliacionID" />
+    </Key>
+    <Property Name="nScaAfiliacionID" Type="Int32" Nullable="false" />
+    <Property Name="nStbPersonaID" Type="Int32" />
+    <Property Name="nStbProfesionID" Type="Int32" />
+    <Property Name="nStbEstadoCivilID" Type="Int32" />
+    <Property Name="nInss" Type="Int32" />
+    <Property Name="sDireccion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="nStbFacultadID" Type="Int32" />
+    <Property Name="nStbUbicacionLaboralID" Type="Int32" />
+    <Property Name="nStbCategoriaDocenteID" Type="Int32" />
+    <Property Name="nStbGradoSuperiorID" Type="Int32" />
+    <Property Name="nNominaUNI" Type="Int32" />
+    <Property Name="dFechaIngresoUNI" Type="DateTime" Precision="0" />
+    <Property Name="sObservaciones" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="nStbEstadoAfiliacionID" Type="Int32" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SplActividad">
+    <Key>
+      <PropertyRef Name="nSplActividadID" />
+    </Key>
+    <Property Name="nSplActividadID" Type="Int32" Nullable="false" />
+    <Property Name="sTitulo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="sCuerpo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaInicio" Type="DateTime" Precision="3" />
+    <Property Name="dFechaFin" Type="DateTime" Precision="3" />
+    <Property Name="nTipoActividadID" Type="Int32" />
+    <Property Name="nEstadoActividadID" Type="Int32" />
+    <Property Name="sUbicacionActividad" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCrecion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SsgCuenta">
+    <Key>
+      <PropertyRef Name="nSsgCuentaID" />
+    </Key>
+    <Property Name="nSsgCuentaID" Type="Int32" Nullable="false" />
+    <Property Name="sNombreUsuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="sClave" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sDireccionImagenPerfil" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nActivo" Type="Byte" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SsgCuentaPermiso">
+    <Key>
+      <PropertyRef Name="nSsgCuentaPermisoID" />
+    </Key>
+    <Property Name="nSsgCuentaPermisoID" Type="Int32" Nullable="false" />
+    <Property Name="nSsgCuentaID" Type="Int32" />
+    <Property Name="nSsgPermisoID" Type="Int32" />
+    <Property Name="nActivo" Type="Byte" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SsgUsuario">
+    <Key>
+      <PropertyRef Name="nSsgUsuarioID" />
+    </Key>
+    <Property Name="nSsgUsuarioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nSsgCuentaID" Type="Int32" />
+    <Property Name="nStbPersonaID" Type="Int32" />
+    <Property Name="nStbCargoPersonaID" Type="Int32" />
+    <Property Name="nActivo" Type="Byte" />
+    <Property Name="dFechaExpiracion" Type="DateTime" Precision="0" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="StbCatalogo">
+    <Key>
+      <PropertyRef Name="nStbCatalogoID" />
+    </Key>
+    <Property Name="nStbCatalogoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sCodigoInterno" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="sDescripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nActivo" Type="Int32" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="StbValorCatalogo" Relationship="Self.FK_StbValorCatalogo_StbCatalogo" FromRole="StbCatalogo" ToRole="StbValorCatalogo" />
+  </EntityType>
+  <EntityType Name="StbContactoPersona">
+    <Key>
+      <PropertyRef Name="nStbContactoPersonaID" />
+    </Key>
+    <Property Name="nStbContactoPersonaID" Type="Int32" Nullable="false" />
+    <Property Name="nStbPersonaID" Type="Int32" />
+    <Property Name="nTipoContactoID" Type="Int32" />
+    <Property Name="sDescripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="StbParametro">
+    <Key>
+      <PropertyRef Name="nStbPrametroID" />
+    </Key>
+    <Property Name="nStbPrametroID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sCodigoInterno" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="sDescripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="StbPersona">
+    <Key>
+      <PropertyRef Name="nStbPersonaID" />
+    </Key>
+    <Property Name="nStbPersonaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sApellido1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sApellido2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sCedula" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaNacimiento" Type="DateTime" Precision="3" />
+    <Property Name="cSexo" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="StbValorCatalogo">
+    <Key>
+      <PropertyRef Name="nStbValorCatalogoID" />
+    </Key>
+    <Property Name="nStbValorCatalogoID" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+    <Property Name="nStbCatalogoID" Type="Int32" />
+    <Property Name="sCodigoInterno" MaxLength="5" FixedLength="false" Unicode="false" Type="String" />
+    <Property Name="sDescripcion" MaxLength="100" FixedLength="false" Unicode="false" Type="String" />
+    <Property Name="nActivo" Type="Int32" />
+    <Property Name="sUsuarioCreacion" MaxLength="50" FixedLength="false" Unicode="false" Type="String" />
+    <Property Name="dFechaCreacion" Precision="3" Type="DateTime" />
+    <Property Name="sUsuarioModificacion" MaxLength="50" FixedLength="false" Unicode="false" Type="String" />
+    <Property Name="dFechaModificacion" Precision="3" Type="DateTime" />
+    <NavigationProperty Name="StbCatalogo" Relationship="Self.FK_StbValorCatalogo_StbCatalogo" FromRole="StbValorCatalogo" ToRole="StbCatalogo" />
+  </EntityType>
+  <EntityType Name="StbValorParametro">
+    <Key>
+      <PropertyRef Name="nStbValorParametroID" />
+    </Key>
+    <Property Name="nStbValorParametroID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nStbParametroID" Type="Int32" />
+    <Property Name="sCodigoInterno" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="sValor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="StiNoticia">
+    <Key>
+      <PropertyRef Name="nStiNoticiaID" />
+    </Key>
+    <Property Name="nStiNoticiaID" Type="Int32" Nullable="false" />
+    <Property Name="sTituloNotica" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="sCuerpoNoticia" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaPublicacion" Type="DateTime" Precision="0" />
+    <Property Name="sUsuarioPublica" Type="Int32" />
+    <Property Name="nNoticiaImportante" Type="Byte" />
+    <Property Name="nVisible" Type="Byte" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="StiNotificacion">
+    <Key>
+      <PropertyRef Name="nStiNotificacionID" />
+    </Key>
+    <Property Name="nStiNotificacionID" Type="Int32" Nullable="false" />
+    <Property Name="nStbTipoNotificacion" Type="Int32" />
+    <Property Name="nSgrCampoUnionID" Type="Int32" />
+    <Property Name="dFechaHoraNotificacion" Type="DateTime" Precision="3" />
+    <Property Name="nLeida" Type="Int32" />
+    <Property Name="sDescripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sLinkReferencia" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_StbValorCatalogo_StbCatalogo">
+    <End Type="Self.StbCatalogo" Multiplicity="0..1" Role="StbCatalogo" />
+    <End Type="Self.StbValorCatalogo" Multiplicity="*" Role="StbValorCatalogo" />
+    <ReferentialConstraint>
+      <Principal Role="StbCatalogo">
+        <PropertyRef Name="nStbCatalogoID" />
+      </Principal>
+      <Dependent Role="StbValorCatalogo">
+        <PropertyRef Name="nStbCatalogoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntStdUniAtd" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ScaAfiliacion" EntityType="Self.ScaAfiliacion" />
+    <EntitySet Name="SplActividad" EntityType="Self.SplActividad" />
+    <EntitySet Name="SsgCuenta" EntityType="Self.SsgCuenta" />
+    <EntitySet Name="SsgCuentaPermiso" EntityType="Self.SsgCuentaPermiso" />
+    <EntitySet Name="SsgUsuario" EntityType="Self.SsgUsuario" />
+    <EntitySet Name="StbCatalogo" EntityType="Self.StbCatalogo" />
+    <EntitySet Name="StbContactoPersona" EntityType="Self.StbContactoPersona" />
+    <EntitySet Name="StbParametro" EntityType="Self.StbParametro" />
+    <EntitySet Name="StbPersona" EntityType="Self.StbPersona" />
+    <EntitySet Name="StbValorCatalogo" EntityType="Self.StbValorCatalogo" />
+    <EntitySet Name="StbValorParametro" EntityType="Self.StbValorParametro" />
+    <EntitySet Name="StiNoticia" EntityType="Self.StiNoticia" />
+    <EntitySet Name="StiNotificacion" EntityType="Self.StiNotificacion" />
+    <AssociationSet Name="FK_StbValorCatalogo_StbCatalogo" Association="Self.FK_StbValorCatalogo_StbCatalogo">
+      <End EntitySet="StbCatalogo" Role="StbCatalogo" />
+      <End EntitySet="StbValorCatalogo" Role="StbValorCatalogo" />
+    </AssociationSet>
+    <FunctionImport Name="spGetCatalogo" ReturnType="Collection(SMUSURA0_FrancoNoTocarModel.spGetCatalogo_Result)" />
+    <FunctionImport Name="spGetValorCatalogo" ReturnType="Collection(SMUSURA0_FrancoNoTocarModel.spGetValorCatalogo_Result)">
+      <Parameter Name="nStbCatalogoID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spGetCargoCuenta" ReturnType="Collection(SMUSURA0_FrancoNoTocarModel.spGetCargoCuenta_Result)" />
+  </EntityContainer>
+  <ComplexType Name="spGetCatalogo_Result">
+    <Property Type="Int32" Name="nStbCatalogoID" Nullable="false" />
+    <Property Type="String" Name="Código" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Catálogo" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Activo" Nullable="false" MaxLength="2" />
+    <Property Type="String" Name="Usuario_Creación" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Fecha_Creación" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Usuario_Modificación" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Fecha_Modificación" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="spGetValorCatalogo_Result">
+    <Property Type="Int32" Name="nStbValorCatalogoID" Nullable="false" />
+    <Property Type="Int32" Name="nStbCatalogoID" Nullable="true" />
+    <Property Type="String" Name="sCodigoInterno" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="sDescripcion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="nActivo" Nullable="false" MaxLength="2" />
+    <Property Type="DateTime" Name="dFechaCreacion" Nullable="true" Precision="23" />
+    <Property Type="String" Name="sNombreUsuario" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="spGetCargoCuenta_Result">
+    <Property Type="String" Name="sNombreUsuario" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="sNombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="sApellido1" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="sCodigoInterno" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="sDescripcion" Nullable="true" MaxLength="100" />
+  </ComplexType>
+</Schema>

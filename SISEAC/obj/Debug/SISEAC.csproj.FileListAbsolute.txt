@@ -1,0 +1,726 @@
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Inspinia_MVC5_SeedProject.dll.config
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Inspinia_MVC5_SeedProject.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Inspinia_MVC5_SeedProject.pdb
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Antlr3.Runtime.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\EntityFramework.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\EntityFramework.SqlServer.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Newtonsoft.Json.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Owin.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.Helpers.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.Mvc.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.Optimization.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.Razor.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.WebPages.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.WebPages.Razor.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\WebGrease.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\EntityFramework.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\EntityFramework.SqlServer.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Newtonsoft.Json.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.Helpers.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.Mvc.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.Optimization.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.Razor.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.WebPages.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\System.Web.WebPages.Razor.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Antlr3.Runtime.pdb
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\obj\Debug\Inspinia_MVC5_SeedProject.dll
+C:\Users\franco.ugarte\Documents\Visual Studio 2015\Projects\SISEAC\SISEAC\obj\Debug\Inspinia_MVC5_SeedProject.pdb
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Inspinia_MVC5_SeedProject.dll.config
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Inspinia_MVC5_SeedProject.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Inspinia_MVC5_SeedProject.pdb
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Antlr3.Runtime.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\EntityFramework.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\EntityFramework.SqlServer.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Newtonsoft.Json.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Owin.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.Helpers.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.Mvc.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.Optimization.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.Razor.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.WebPages.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.WebPages.Razor.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\WebGrease.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\EntityFramework.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\EntityFramework.SqlServer.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Newtonsoft.Json.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.Helpers.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.Mvc.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.Optimization.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.Razor.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.WebPages.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\System.Web.WebPages.Razor.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Antlr3.Runtime.pdb
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\obj\Debug\Inspinia_MVC5_SeedProject.dll
+C:\Users\franco.ugarte\Documents\SISEAC\SISEAC\obj\Debug\Inspinia_MVC5_SeedProject.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Inspinia_MVC5_SeedProject.dll.config
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Inspinia_MVC5_SeedProject.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Inspinia_MVC5_SeedProject.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Antlr3.Runtime.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\EntityFramework.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\EntityFramework.SqlServer.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Newtonsoft.Json.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Owin.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.Helpers.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.Mvc.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.Optimization.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.Razor.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.WebPages.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.WebPages.Razor.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\WebGrease.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\EntityFramework.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\EntityFramework.SqlServer.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Newtonsoft.Json.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.Helpers.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.Mvc.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.Optimization.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.Razor.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.WebPages.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\System.Web.WebPages.Razor.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Antlr3.Runtime.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\obj\Debug\Inspinia_MVC5_SeedProject.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\obj\Debug\Inspinia_MVC5_SeedProject.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\SISEAC.dll.config
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\SISEAC.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\SISEAC.pdb
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Antlr3.Runtime.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\EntityFramework.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\EntityFramework.SqlServer.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Newtonsoft.Json.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Owin.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.Helpers.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.Mvc.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.Optimization.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.Razor.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.WebPages.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.WebPages.Razor.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Xml.Linq.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\WebGrease.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\EntityFramework.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\EntityFramework.SqlServer.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Newtonsoft.Json.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.Helpers.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.Mvc.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.Optimization.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.Razor.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.WebPages.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\System.Web.WebPages.Razor.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Antlr3.Runtime.pdb
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\obj\Debug\SISEAC.Properties.Resources.resources
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\obj\Debug\SISEAC.csproj.GenerateResource.Cache
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\obj\Debug\SISEAC.dll
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\obj\Debug\SISEAC.pdb
+C:\Users\franco.ugarte\Documents\STDUNIATD\SISEAC\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\obj\Debug\SISEAC.Properties.Resources.resources
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\obj\Debug\SISEAC.csproj.GenerateResource.Cache
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\SISEAC.dll.config
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\SISEAC.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\SISEAC.pdb
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Antlr3.Runtime.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\EntityFramework.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\EntityFramework.SqlServer.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Newtonsoft.Json.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Owin.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.Helpers.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.Mvc.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.Optimization.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.Razor.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.Deployment.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.Razor.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Xml.Linq.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\WebGrease.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\EntityFramework.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\EntityFramework.SqlServer.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Newtonsoft.Json.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.Helpers.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.Mvc.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.Optimization.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.Razor.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.Deployment.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.Razor.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Antlr3.Runtime.pdb
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\obj\Debug\SISEAC.dll
+H:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 09052017\SISEAC\obj\Debug\SISEAC.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\SISEAC.dll.config
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\SISEAC.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\SISEAC.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Antlr3.Runtime.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\EntityFramework.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\EntityFramework.SqlServer.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Newtonsoft.Json.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Owin.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.Helpers.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.Mvc.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.Optimization.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.Razor.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.Razor.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Xml.Linq.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\WebGrease.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\EntityFramework.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\EntityFramework.SqlServer.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Newtonsoft.Json.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.Helpers.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.Mvc.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.Optimization.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.Razor.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\System.Web.WebPages.Razor.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Antlr3.Runtime.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\obj\Debug\SISEAC.Properties.Resources.resources
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\obj\Debug\SISEAC.csproj.GenerateResource.Cache
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\obj\Debug\SISEAC.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 09052017\SISEAC\obj\Debug\SISEAC.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\SISEAC.dll.config
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\SISEAC.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\SISEAC.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Antlr3.Runtime.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\EntityFramework.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\EntityFramework.SqlServer.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Newtonsoft.Json.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Owin.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.Helpers.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.Mvc.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.Optimization.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.Razor.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.Razor.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Xml.Linq.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\WebGrease.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\EntityFramework.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\EntityFramework.SqlServer.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Newtonsoft.Json.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.Helpers.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.Mvc.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.Optimization.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.Razor.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.Razor.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Antlr3.Runtime.pdb
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.Properties.Resources.resources
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.csproj.GenerateResource.Cache
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.dll
+C:\Users\DESARROLLADOR\Desktop\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.pdb
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\SISEAC.dll.config
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\SISEAC.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\SISEAC.pdb
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Antlr3.Runtime.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\EntityFramework.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\EntityFramework.SqlServer.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Newtonsoft.Json.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Owin.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.Helpers.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.Mvc.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.Optimization.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.Razor.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.Deployment.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.Razor.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Xml.Linq.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\WebGrease.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\EntityFramework.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\EntityFramework.SqlServer.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Newtonsoft.Json.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.Helpers.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.Mvc.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.Optimization.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.Razor.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.Deployment.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\System.Web.WebPages.Razor.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Antlr3.Runtime.pdb
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.Properties.Resources.resources
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.csproj.GenerateResource.Cache
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 14052017\SISEAC\obj\Debug\SISEAC.pdb
+D:\SISEAC_220517\SISEAC\bin\SISEAC.dll.config
+D:\SISEAC_220517\SISEAC\bin\SISEAC.dll
+D:\SISEAC_220517\SISEAC\bin\SISEAC.pdb
+D:\SISEAC_220517\SISEAC\bin\Antlr3.Runtime.dll
+D:\SISEAC_220517\SISEAC\bin\EntityFramework.dll
+D:\SISEAC_220517\SISEAC\bin\EntityFramework.SqlServer.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+D:\SISEAC_220517\SISEAC\bin\Newtonsoft.Json.dll
+D:\SISEAC_220517\SISEAC\bin\Owin.dll
+D:\SISEAC_220517\SISEAC\bin\System.Web.Helpers.dll
+D:\SISEAC_220517\SISEAC\bin\System.Web.Mvc.dll
+D:\SISEAC_220517\SISEAC\bin\System.Web.Optimization.dll
+D:\SISEAC_220517\SISEAC\bin\System.Web.Razor.dll
+D:\SISEAC_220517\SISEAC\bin\System.Web.WebPages.Deployment.dll
+D:\SISEAC_220517\SISEAC\bin\System.Web.WebPages.dll
+D:\SISEAC_220517\SISEAC\bin\System.Web.WebPages.Razor.dll
+D:\SISEAC_220517\SISEAC\bin\System.Xml.Linq.dll
+D:\SISEAC_220517\SISEAC\bin\WebGrease.dll
+D:\SISEAC_220517\SISEAC\bin\EntityFramework.xml
+D:\SISEAC_220517\SISEAC\bin\EntityFramework.SqlServer.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SISEAC_220517\SISEAC\bin\Newtonsoft.Json.xml
+D:\SISEAC_220517\SISEAC\bin\System.Web.Helpers.xml
+D:\SISEAC_220517\SISEAC\bin\System.Web.Mvc.xml
+D:\SISEAC_220517\SISEAC\bin\System.Web.Optimization.xml
+D:\SISEAC_220517\SISEAC\bin\System.Web.Razor.xml
+D:\SISEAC_220517\SISEAC\bin\System.Web.WebPages.xml
+D:\SISEAC_220517\SISEAC\bin\System.Web.WebPages.Deployment.xml
+D:\SISEAC_220517\SISEAC\bin\System.Web.WebPages.Razor.xml
+D:\SISEAC_220517\SISEAC\bin\Antlr3.Runtime.pdb
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SISEAC_220517\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SISEAC_220517\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+D:\SISEAC_220517\SISEAC\obj\Debug\SISEAC.Properties.Resources.resources
+D:\SISEAC_220517\SISEAC\obj\Debug\SISEAC.csproj.GenerateResource.Cache
+D:\SISEAC_220517\SISEAC\obj\Debug\SISEAC.dll
+D:\SISEAC_220517\SISEAC\obj\Debug\SISEAC.pdb
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\SISEAC.dll.config
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\SISEAC.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\SISEAC.pdb
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Antlr3.Runtime.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\EntityFramework.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\EntityFramework.SqlServer.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Newtonsoft.Json.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Owin.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Helpers.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Mvc.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Optimization.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Razor.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.Deployment.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.Razor.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Xml.Linq.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\WebGrease.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\EntityFramework.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\EntityFramework.SqlServer.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Newtonsoft.Json.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Helpers.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Mvc.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Optimization.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Razor.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.Deployment.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.Razor.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Antlr3.Runtime.pdb
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.Properties.Resources.resources
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.csproj.GenerateResource.Cache
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.dll
+G:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.pdb
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\SISEAC.dll.config
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\SISEAC.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\SISEAC.pdb
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Antlr3.Runtime.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\EntityFramework.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\EntityFramework.SqlServer.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Newtonsoft.Json.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Owin.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Helpers.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Mvc.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Optimization.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Razor.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.Deployment.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.Razor.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Xml.Linq.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\WebGrease.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\EntityFramework.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\EntityFramework.SqlServer.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Newtonsoft.Json.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Helpers.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Mvc.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Optimization.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.Razor.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.Deployment.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\System.Web.WebPages.Razor.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Antlr3.Runtime.pdb
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.Properties.Resources.resources
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.csproj.GenerateResource.Cache
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 22052017\SISEAC\obj\Debug\SISEAC.pdb
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\SISEAC.dll.config
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\SISEAC.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\SISEAC.pdb
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Antlr3.Runtime.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\EntityFramework.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\EntityFramework.SqlServer.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.Google.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Web.Infrastructure.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Newtonsoft.Json.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Owin.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.Helpers.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.Mvc.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.Optimization.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.Razor.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.WebPages.Deployment.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.WebPages.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.WebPages.Razor.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Xml.Linq.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\WebGrease.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\EntityFramework.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\EntityFramework.SqlServer.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.Identity.Core.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.SignalR.Core.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.Cookies.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.OAuth.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Newtonsoft.Json.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.Helpers.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.Mvc.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.Optimization.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.Razor.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.WebPages.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.WebPages.Deployment.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\System.Web.WebPages.Razor.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Antlr3.Runtime.pdb
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.Facebook.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.Google.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.Twitter.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\obj\Debug\SISEAC.csprojResolveAssemblyReference.cache
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\obj\Debug\SISEAC.Properties.Resources.resources
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\obj\Debug\SISEAC.csproj.GenerateResource.Cache
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\obj\Debug\SISEAC.dll
+I:\SISEAC RESPALDOS\Versiones Sistema\SISEAC 24052017\SISEAC\obj\Debug\SISEAC.pdb

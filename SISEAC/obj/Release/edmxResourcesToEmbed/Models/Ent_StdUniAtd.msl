@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SMUSURA0_FrancoNoTocarModelStoreContainer" CdmEntityContainer="EntStdUniAtd">
+    <EntitySetMapping Name="ScaAfiliacion">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion">
+        <MappingFragment StoreEntitySet="ScaAfiliacion">
+          <ScalarProperty Name="nScaAfiliacionID" ColumnName="nScaAfiliacionID" />
+          <ScalarProperty Name="nStbPersonaID" ColumnName="nStbPersonaID" />
+          <ScalarProperty Name="nStbProfesionID" ColumnName="nStbProfesionID" />
+          <ScalarProperty Name="nStbEstadoCivilID" ColumnName="nStbEstadoCivilID" />
+          <ScalarProperty Name="nInss" ColumnName="nInss" />
+          <ScalarProperty Name="sDireccion" ColumnName="sDireccion" />
+          <ScalarProperty Name="nStbFacultadID" ColumnName="nStbFacultadID" />
+          <ScalarProperty Name="nStbUbicacionLaboralID" ColumnName="nStbUbicacionLaboralID" />
+          <ScalarProperty Name="nStbCategoriaDocenteID" ColumnName="nStbCategoriaDocenteID" />
+          <ScalarProperty Name="nStbGradoSuperiorID" ColumnName="nStbGradoSuperiorID" />
+          <ScalarProperty Name="nNominaUNI" ColumnName="nNominaUNI" />
+          <ScalarProperty Name="dFechaIngresoUNI" ColumnName="dFechaIngresoUNI" />
+          <ScalarProperty Name="sObservaciones" ColumnName="sObservaciones" />
+          <ScalarProperty Name="nStbEstadoAfiliacionID" ColumnName="nStbEstadoAfiliacionID" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SplActividad">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.SplActividad">
+        <MappingFragment StoreEntitySet="SplActividad">
+          <ScalarProperty Name="nSplActividadID" ColumnName="nSplActividadID" />
+          <ScalarProperty Name="sTitulo" ColumnName="sTitulo" />
+          <ScalarProperty Name="sCuerpo" ColumnName="sCuerpo" />
+          <ScalarProperty Name="dFechaInicio" ColumnName="dFechaInicio" />
+          <ScalarProperty Name="dFechaFin" ColumnName="dFechaFin" />
+          <ScalarProperty Name="nTipoActividadID" ColumnName="nTipoActividadID" />
+          <ScalarProperty Name="nEstadoActividadID" ColumnName="nEstadoActividadID" />
+          <ScalarProperty Name="sUbicacionActividad" ColumnName="sUbicacionActividad" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCrecion" ColumnName="dFechaCrecion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SsgCuenta">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.SsgCuenta">
+        <MappingFragment StoreEntitySet="SsgCuenta">
+          <ScalarProperty Name="nSsgCuentaID" ColumnName="nSsgCuentaID" />
+          <ScalarProperty Name="sNombreUsuario" ColumnName="sNombreUsuario" />
+          <ScalarProperty Name="sClave" ColumnName="sClave" />
+          <ScalarProperty Name="sDireccionImagenPerfil" ColumnName="sDireccionImagenPerfil" />
+          <ScalarProperty Name="nActivo" ColumnName="nActivo" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SsgCuentaPermiso">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.SsgCuentaPermiso">
+        <MappingFragment StoreEntitySet="SsgCuentaPermiso">
+          <ScalarProperty Name="nSsgCuentaPermisoID" ColumnName="nSsgCuentaPermisoID" />
+          <ScalarProperty Name="nSsgCuentaID" ColumnName="nSsgCuentaID" />
+          <ScalarProperty Name="nSsgPermisoID" ColumnName="nSsgPermisoID" />
+          <ScalarProperty Name="nActivo" ColumnName="nActivo" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SsgUsuario">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.SsgUsuario">
+        <MappingFragment StoreEntitySet="SsgUsuario">
+          <ScalarProperty Name="nSsgUsuarioID" ColumnName="nSsgUsuarioID" />
+          <ScalarProperty Name="nSsgCuentaID" ColumnName="nSsgCuentaID" />
+          <ScalarProperty Name="nStbPersonaID" ColumnName="nStbPersonaID" />
+          <ScalarProperty Name="nStbCargoPersonaID" ColumnName="nStbCargoPersonaID" />
+          <ScalarProperty Name="nActivo" ColumnName="nActivo" />
+          <ScalarProperty Name="dFechaExpiracion" ColumnName="dFechaExpiracion" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StbCatalogo">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.StbCatalogo">
+        <MappingFragment StoreEntitySet="StbCatalogo">
+          <ScalarProperty Name="nStbCatalogoID" ColumnName="nStbCatalogoID" />
+          <ScalarProperty Name="sCodigoInterno" ColumnName="sCodigoInterno" />
+          <ScalarProperty Name="sDescripcion" ColumnName="sDescripcion" />
+          <ScalarProperty Name="nActivo" ColumnName="nActivo" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StbContactoPersona">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.StbContactoPersona">
+        <MappingFragment StoreEntitySet="StbContactoPersona">
+          <ScalarProperty Name="nStbContactoPersonaID" ColumnName="nStbContactoPersonaID" />
+          <ScalarProperty Name="nStbPersonaID" ColumnName="nStbPersonaID" />
+          <ScalarProperty Name="nTipoContactoID" ColumnName="nTipoContactoID" />
+          <ScalarProperty Name="sDescripcion" ColumnName="sDescripcion" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StbParametro">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.StbParametro">
+        <MappingFragment StoreEntitySet="StbParametro">
+          <ScalarProperty Name="nStbPrametroID" ColumnName="nStbPrametroID" />
+          <ScalarProperty Name="sCodigoInterno" ColumnName="sCodigoInterno" />
+          <ScalarProperty Name="sDescripcion" ColumnName="sDescripcion" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StbPersona">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.StbPersona">
+        <MappingFragment StoreEntitySet="StbPersona">
+          <ScalarProperty Name="nStbPersonaID" ColumnName="nStbPersonaID" />
+          <ScalarProperty Name="sNombre" ColumnName="sNombre" />
+          <ScalarProperty Name="sApellido1" ColumnName="sApellido1" />
+          <ScalarProperty Name="sApellido2" ColumnName="sApellido2" />
+          <ScalarProperty Name="sCedula" ColumnName="sCedula" />
+          <ScalarProperty Name="dFechaNacimiento" ColumnName="dFechaNacimiento" />
+          <ScalarProperty Name="cSexo" ColumnName="cSexo" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StbValorCatalogo">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo">
+        <MappingFragment StoreEntitySet="StbValorCatalogo">
+          <ScalarProperty Name="nStbValorCatalogoID" ColumnName="nStbValorCatalogoID" />
+          <ScalarProperty Name="nStbCatalogoID" ColumnName="nStbCatalogoID" />
+          <ScalarProperty Name="sCodigoInterno" ColumnName="sCodigoInterno" />
+          <ScalarProperty Name="sDescripcion" ColumnName="sDescripcion" />
+          <ScalarProperty Name="nActivo" ColumnName="nActivo" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StbValorParametro">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.StbValorParametro">
+        <MappingFragment StoreEntitySet="StbValorParametro">
+          <ScalarProperty Name="nStbValorParametroID" ColumnName="nStbValorParametroID" />
+          <ScalarProperty Name="nStbParametroID" ColumnName="nStbParametroID" />
+          <ScalarProperty Name="sCodigoInterno" ColumnName="sCodigoInterno" />
+          <ScalarProperty Name="sValor" ColumnName="sValor" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StiNoticia">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.StiNoticia">
+        <MappingFragment StoreEntitySet="StiNoticia">
+          <ScalarProperty Name="nStiNoticiaID" ColumnName="nStiNoticiaID" />
+          <ScalarProperty Name="sTituloNotica" ColumnName="sTituloNotica" />
+          <ScalarProperty Name="sCuerpoNoticia" ColumnName="sCuerpoNoticia" />
+          <ScalarProperty Name="dFechaPublicacion" ColumnName="dFechaPublicacion" />
+          <ScalarProperty Name="sUsuarioPublica" ColumnName="sUsuarioPublica" />
+          <ScalarProperty Name="nNoticiaImportante" ColumnName="nNoticiaImportante" />
+          <ScalarProperty Name="nVisible" ColumnName="nVisible" />
+          <ScalarProperty Name="sUsuarioCreacion" ColumnName="sUsuarioCreacion" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sUsuarioModificacion" ColumnName="sUsuarioModificacion" />
+          <ScalarProperty Name="dFechaModificacion" ColumnName="dFechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StiNotificacion">
+      <EntityTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.StiNotificacion">
+        <MappingFragment StoreEntitySet="StiNotificacion">
+          <ScalarProperty Name="nStiNotificacionID" ColumnName="nStiNotificacionID" />
+          <ScalarProperty Name="nStbTipoNotificacion" ColumnName="nStbTipoNotificacion" />
+          <ScalarProperty Name="nSgrCampoUnionID" ColumnName="nSgrCampoUnionID" />
+          <ScalarProperty Name="dFechaHoraNotificacion" ColumnName="dFechaHoraNotificacion" />
+          <ScalarProperty Name="nLeida" ColumnName="nLeida" />
+          <ScalarProperty Name="sDescripcion" ColumnName="sDescripcion" />
+          <ScalarProperty Name="sLinkReferencia" ColumnName="sLinkReferencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spGetCatalogo" FunctionName="SMUSURA0_FrancoNoTocarModel.Store.spGetCatalogo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.spGetCatalogo_Result">
+          <ScalarProperty Name="nStbCatalogoID" ColumnName="nStbCatalogoID" />
+          <ScalarProperty Name="Código" ColumnName="Código" />
+          <ScalarProperty Name="Catálogo" ColumnName="Catálogo" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Usuario_Creación" ColumnName="Usuario Creación" />
+          <ScalarProperty Name="Fecha_Creación" ColumnName="Fecha Creación" />
+          <ScalarProperty Name="Usuario_Modificación" ColumnName="Usuario Modificación" />
+          <ScalarProperty Name="Fecha_Modificación" ColumnName="Fecha Modificación" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spGetValorCatalogo" FunctionName="SMUSURA0_FrancoNoTocarModel.Store.spGetValorCatalogo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.spGetValorCatalogo_Result">
+          <ScalarProperty Name="nStbValorCatalogoID" ColumnName="nStbValorCatalogoID" />
+          <ScalarProperty Name="nStbCatalogoID" ColumnName="nStbCatalogoID" />
+          <ScalarProperty Name="sCodigoInterno" ColumnName="sCodigoInterno" />
+          <ScalarProperty Name="sDescripcion" ColumnName="sDescripcion" />
+          <ScalarProperty Name="nActivo" ColumnName="nActivo" />
+          <ScalarProperty Name="dFechaCreacion" ColumnName="dFechaCreacion" />
+          <ScalarProperty Name="sNombreUsuario" ColumnName="sNombreUsuario" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spGetCargoCuenta" FunctionName="SMUSURA0_FrancoNoTocarModel.Store.spGetCargoCuenta">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SMUSURA0_FrancoNoTocarModel.spGetCargoCuenta_Result">
+          <ScalarProperty Name="sNombreUsuario" ColumnName="sNombreUsuario" />
+          <ScalarProperty Name="sNombre" ColumnName="sNombre" />
+          <ScalarProperty Name="sApellido1" ColumnName="sApellido1" />
+          <ScalarProperty Name="sCodigoInterno" ColumnName="sCodigoInterno" />
+          <ScalarProperty Name="sDescripcion" ColumnName="sDescripcion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

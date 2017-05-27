@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMUSURA0_FrancoNoTocarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EntStdUniAtd" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="spGetCatalogo" ReturnType="Collection(SMUSURA0_FrancoNoTocarModel.spGetCatalogo_Result)" />
+    <FunctionImport Name="spGetValorCatalogo" ReturnType="Collection(SMUSURA0_FrancoNoTocarModel.spGetValorCatalogo_Result)">
+      <Parameter Name="nStbCatalogoID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spGetCargoCuenta" ReturnType="Collection(SMUSURA0_FrancoNoTocarModel.spGetCargoCuenta_Result)" />
+    <FunctionImport Name="spGetAllValorCatalogo" ReturnType="Collection(SMUSURA0_FrancoNoTocarModel.spGetAllValorCatalogo_Result)" />
+    <EntitySet Name="Auditoria" EntityType="SMUSURA0_FrancoNoTocarModel.Auditoria" />
+    <EntitySet Name="bCampo" EntityType="SMUSURA0_FrancoNoTocarModel.bCampo" />
+    <EntitySet Name="bTabla" EntityType="SMUSURA0_FrancoNoTocarModel.bTabla" />
+    <EntitySet Name="ScaAfiliacion" EntityType="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" />
+    <EntitySet Name="SplActividad" EntityType="SMUSURA0_FrancoNoTocarModel.SplActividad" />
+    <EntitySet Name="SsgCuenta" EntityType="SMUSURA0_FrancoNoTocarModel.SsgCuenta" />
+    <EntitySet Name="SsgCuentaPermiso" EntityType="SMUSURA0_FrancoNoTocarModel.SsgCuentaPermiso" />
+    <EntitySet Name="SsgUsuario" EntityType="SMUSURA0_FrancoNoTocarModel.SsgUsuario" />
+    <EntitySet Name="StbCatalogo" EntityType="SMUSURA0_FrancoNoTocarModel.StbCatalogo" />
+    <EntitySet Name="StbContactoPersona" EntityType="SMUSURA0_FrancoNoTocarModel.StbContactoPersona" />
+    <EntitySet Name="StbParametro" EntityType="SMUSURA0_FrancoNoTocarModel.StbParametro" />
+    <EntitySet Name="StbPersona" EntityType="SMUSURA0_FrancoNoTocarModel.StbPersona" />
+    <EntitySet Name="StbValorCatalogo" EntityType="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" />
+    <EntitySet Name="StbValorParametro" EntityType="SMUSURA0_FrancoNoTocarModel.StbValorParametro" />
+    <EntitySet Name="StiNoticia" EntityType="SMUSURA0_FrancoNoTocarModel.StiNoticia" />
+    <EntitySet Name="StiNotificacion" EntityType="SMUSURA0_FrancoNoTocarModel.StiNotificacion" />
+    <AssociationSet Name="FK_Auditoria_bCampo" Association="SMUSURA0_FrancoNoTocarModel.FK_Auditoria_bCampo">
+      <End Role="bCampo" EntitySet="bCampo" />
+      <End Role="Auditoria" EntitySet="Auditoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK_bCampo_bTabla" Association="SMUSURA0_FrancoNoTocarModel.FK_bCampo_bTabla">
+      <End Role="bTabla" EntitySet="bTabla" />
+      <End Role="bCampo" EntitySet="bCampo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScaAfiliacion_StbPersona" Association="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbPersona">
+      <End Role="StbPersona" EntitySet="StbPersona" />
+      <End Role="ScaAfiliacion" EntitySet="ScaAfiliacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScaAfiliacion_StbValorCatalogo" Association="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="ScaAfiliacion" EntitySet="ScaAfiliacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScaAfiliacion_StbValorCatalogo1" Association="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo1">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="ScaAfiliacion" EntitySet="ScaAfiliacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScaAfiliacion_StbValorCatalogo2" Association="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo2">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="ScaAfiliacion" EntitySet="ScaAfiliacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScaAfiliacion_StbValorCatalogo3" Association="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo3">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="ScaAfiliacion" EntitySet="ScaAfiliacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScaAfiliacion_StbValorCatalogo4" Association="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo4">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="ScaAfiliacion" EntitySet="ScaAfiliacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SplActividad_StbValorCatalogo" Association="SMUSURA0_FrancoNoTocarModel.FK_SplActividad_StbValorCatalogo">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="SplActividad" EntitySet="SplActividad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SplActividad_StbValorCatalogo1" Association="SMUSURA0_FrancoNoTocarModel.FK_SplActividad_StbValorCatalogo1">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="SplActividad" EntitySet="SplActividad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SsgCuentaPermiso_SsgCuenta" Association="SMUSURA0_FrancoNoTocarModel.FK_SsgCuentaPermiso_SsgCuenta">
+      <End Role="SsgCuenta" EntitySet="SsgCuenta" />
+      <End Role="SsgCuentaPermiso" EntitySet="SsgCuentaPermiso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SsgUsuario_SsgCuenta" Association="SMUSURA0_FrancoNoTocarModel.FK_SsgUsuario_SsgCuenta">
+      <End Role="SsgCuenta" EntitySet="SsgCuenta" />
+      <End Role="SsgUsuario" EntitySet="SsgUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SsgCuentaPermiso_StbValorCatalogo" Association="SMUSURA0_FrancoNoTocarModel.FK_SsgCuentaPermiso_StbValorCatalogo">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="SsgCuentaPermiso" EntitySet="SsgCuentaPermiso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SsgUsuario_StbPersona" Association="SMUSURA0_FrancoNoTocarModel.FK_SsgUsuario_StbPersona">
+      <End Role="StbPersona" EntitySet="StbPersona" />
+      <End Role="SsgUsuario" EntitySet="SsgUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SsgUsuario_StbValorCatalogo" Association="SMUSURA0_FrancoNoTocarModel.FK_SsgUsuario_StbValorCatalogo">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="SsgUsuario" EntitySet="SsgUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StbValorCatalogo_StbCatalogo" Association="SMUSURA0_FrancoNoTocarModel.FK_StbValorCatalogo_StbCatalogo">
+      <End Role="StbCatalogo" EntitySet="StbCatalogo" />
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StbContactoPersona_StbPersona" Association="SMUSURA0_FrancoNoTocarModel.FK_StbContactoPersona_StbPersona">
+      <End Role="StbPersona" EntitySet="StbPersona" />
+      <End Role="StbContactoPersona" EntitySet="StbContactoPersona" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StbContactoPersona_StbValorCatalogo" Association="SMUSURA0_FrancoNoTocarModel.FK_StbContactoPersona_StbValorCatalogo">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="StbContactoPersona" EntitySet="StbContactoPersona" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StbValorParametro_StbParametro" Association="SMUSURA0_FrancoNoTocarModel.FK_StbValorParametro_StbParametro">
+      <End Role="StbParametro" EntitySet="StbParametro" />
+      <End Role="StbValorParametro" EntitySet="StbValorParametro" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StiNotificacion_StbValorCatalogo" Association="SMUSURA0_FrancoNoTocarModel.FK_StiNotificacion_StbValorCatalogo">
+      <End Role="StbValorCatalogo" EntitySet="StbValorCatalogo" />
+      <End Role="StiNotificacion" EntitySet="StiNotificacion" />
+    </AssociationSet>
+    <EntitySet Name="StbCarrera" EntityType="SMUSURA0_FrancoNoTocarModel.StbCarrera" />
+    <EntitySet Name="StbFacultad" EntityType="SMUSURA0_FrancoNoTocarModel.StbFacultad" />
+    <AssociationSet Name="FK_ScaAfiliacion_StbCarrera" Association="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbCarrera">
+      <End Role="StbCarrera" EntitySet="StbCarrera" />
+      <End Role="ScaAfiliacion" EntitySet="ScaAfiliacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScaAfiliacion_StbFacultad" Association="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbFacultad">
+      <End Role="StbFacultad" EntitySet="StbFacultad" />
+      <End Role="ScaAfiliacion" EntitySet="ScaAfiliacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StbCarrera_StbFacultad" Association="SMUSURA0_FrancoNoTocarModel.FK_StbCarrera_StbFacultad">
+      <End Role="StbFacultad" EntitySet="StbFacultad" />
+      <End Role="StbCarrera" EntitySet="StbCarrera" />
+    </AssociationSet>
+    <EntitySet Name="StbDepartamento" EntityType="SMUSURA0_FrancoNoTocarModel.StbDepartamento" />
+    <AssociationSet Name="FK_ScaAfiliacion_StbDepartamento" Association="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbDepartamento">
+      <End Role="StbDepartamento" EntitySet="StbDepartamento" />
+      <End Role="ScaAfiliacion" EntitySet="ScaAfiliacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StbDepartamento_StbCarrera" Association="SMUSURA0_FrancoNoTocarModel.FK_StbDepartamento_StbCarrera">
+      <End Role="StbCarrera" EntitySet="StbCarrera" />
+      <End Role="StbDepartamento" EntitySet="StbDepartamento" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="spGetCatalogo_Result">
+    <Property Type="Int32" Name="nStbCatalogoID" Nullable="false" />
+    <Property Type="String" Name="Código" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Catálogo" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Activo" Nullable="false" MaxLength="2" />
+    <Property Type="String" Name="Usuario_Creación" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Fecha_Creación" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Usuario_Modificación" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Fecha_Modificación" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="spGetValorCatalogo_Result">
+    <Property Type="Int32" Name="nStbValorCatalogoID" Nullable="false" />
+    <Property Type="Int32" Name="nStbCatalogoID" Nullable="true" />
+    <Property Type="String" Name="sCodigoInterno" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="sDescripcion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="nActivo" Nullable="false" MaxLength="2" />
+    <Property Type="DateTime" Name="dFechaCreacion" Nullable="true" Precision="23" />
+    <Property Type="String" Name="sNombreUsuario" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="spGetCargoCuenta_Result">
+    <Property Type="String" Name="sNombreUsuario" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="sNombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="sApellido1" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="sCodigoInterno" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="sDescripcion" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="spGetAllValorCatalogo_Result">
+    <Property Type="Int32" Name="nStbValorCatalogoID" Nullable="false" />
+    <Property Type="Int32" Name="nStbCatalogoID" Nullable="true" />
+    <Property Type="String" Name="sCodigoInterno" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="sDescripcion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="nActivo" Nullable="false" MaxLength="2" />
+    <Property Type="DateTime" Name="dFechaCreacion" Nullable="true" Precision="23" />
+    <Property Type="String" Name="sNombreUsuario" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CodCatalogo" Nullable="true" MaxLength="5" />
+  </ComplexType>
+  <EntityType Name="Auditoria">
+    <Key>
+      <PropertyRef Name="id_audit" />
+    </Key>
+    <Property Name="id_audit" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_campo" Type="Int32" Nullable="false" />
+    <Property Name="id_registro" Type="Int32" Nullable="false" />
+    <Property Name="valor_antiguo" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="valor_nuevo" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_hora_audit" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="usuario_modifica" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="bCampo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_Auditoria_bCampo" FromRole="Auditoria" ToRole="bCampo" />
+  </EntityType>
+  <EntityType Name="bCampo">
+    <Key>
+      <PropertyRef Name="id_campo" />
+    </Key>
+    <Property Name="id_campo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_tabla" Type="Int32" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Auditoria" Relationship="SMUSURA0_FrancoNoTocarModel.FK_Auditoria_bCampo" FromRole="bCampo" ToRole="Auditoria" />
+    <NavigationProperty Name="bTabla" Relationship="SMUSURA0_FrancoNoTocarModel.FK_bCampo_bTabla" FromRole="bCampo" ToRole="bTabla" />
+  </EntityType>
+  <EntityType Name="bTabla">
+    <Key>
+      <PropertyRef Name="id_tabla" />
+    </Key>
+    <Property Name="id_tabla" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="bCampo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_bCampo_bTabla" FromRole="bTabla" ToRole="bCampo" />
+  </EntityType>
+  <EntityType Name="ScaAfiliacion">
+    <Key>
+      <PropertyRef Name="nScaAfiliacionID" />
+    </Key>
+    <Property Name="nScaAfiliacionID" Type="Int32" Nullable="false" />
+    <Property Name="nStbPersonaID" Type="Int32" Nullable="false" />
+    <Property Name="nStbProfesionID" Type="Int32" Nullable="false" />
+    <Property Name="nStbEstadoCivilID" Type="Int32" Nullable="false" />
+    <Property Name="nStbCategoriaDocenteID" Type="Int32" Nullable="false" />
+    <Property Name="nStbGradoSuperiorID" Type="Int32" Nullable="false" />
+    <Property Name="nStbFacultadID" Type="Int32" Nullable="false" />
+    <Property Name="nStbCarreraID" Type="Int32" Nullable="false" />
+    <Property Name="nStbDepartamentoID" Type="Int32" Nullable="false" />
+    <Property Name="nStbEstadoAfiliacionID" Type="Int32" Nullable="false" />
+    <Property Name="nInss" Type="Int32" Nullable="false" />
+    <Property Name="nNoEmpleado" Type="Int32" Nullable="false" />
+    <Property Name="nAnioIngresoUNI" Type="Int32" Nullable="false" />
+    <Property Name="dFechaSolicitud" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="nActaFacultad" Type="Int32" Nullable="false" />
+    <Property Name="nActaConsejoUniversitario" Type="Int32" />
+    <Property Name="sActaConsejoUniversitario" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaActaConsejoUniversitario" Type="DateTime" Precision="0" />
+    <Property Name="nNumeroAfiliado" Type="Int32" />
+    <Property Name="sLugarReunionAprobacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaReunionAprobacion" Type="DateTime" Precision="0" />
+    <Property Name="sUsuarioCreacion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="StbPersona" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbPersona" FromRole="ScaAfiliacion" ToRole="StbPersona" />
+    <NavigationProperty Name="StbValorCatalogo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo" FromRole="ScaAfiliacion" ToRole="StbValorCatalogo" />
+    <NavigationProperty Name="StbValorCatalogo1" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo1" FromRole="ScaAfiliacion" ToRole="StbValorCatalogo" />
+    <NavigationProperty Name="StbValorCatalogo2" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo2" FromRole="ScaAfiliacion" ToRole="StbValorCatalogo" />
+    <NavigationProperty Name="StbValorCatalogo3" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo3" FromRole="ScaAfiliacion" ToRole="StbValorCatalogo" />
+    <NavigationProperty Name="StbValorCatalogo4" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo4" FromRole="ScaAfiliacion" ToRole="StbValorCatalogo" />
+    <NavigationProperty Name="StbCarrera" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbCarrera" FromRole="ScaAfiliacion" ToRole="StbCarrera" />
+    <NavigationProperty Name="StbFacultad" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbFacultad" FromRole="ScaAfiliacion" ToRole="StbFacultad" />
+    <NavigationProperty Name="StbDepartamento" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbDepartamento" FromRole="ScaAfiliacion" ToRole="StbDepartamento" />
+  </EntityType>
+  <EntityType Name="SplActividad">
+    <Key>
+      <PropertyRef Name="nSplActividadID" />
+    </Key>
+    <Property Name="nSplActividadID" Type="Int32" Nullable="false" />
+    <Property Name="sTitulo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="sCuerpo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaHoraInicio" Type="DateTime" Precision="3" />
+    <Property Name="dFechaHoraFin" Type="DateTime" Precision="3" />
+    <Property Name="nTipoActividadID" Type="Int32" />
+    <Property Name="nEstadoActividadID" Type="Int32" />
+    <Property Name="sUbicacionActividad" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCrecion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="StbValorCatalogo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SplActividad_StbValorCatalogo" FromRole="SplActividad" ToRole="StbValorCatalogo" />
+    <NavigationProperty Name="StbValorCatalogo1" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SplActividad_StbValorCatalogo1" FromRole="SplActividad" ToRole="StbValorCatalogo" />
+  </EntityType>
+  <EntityType Name="SsgCuenta">
+    <Key>
+      <PropertyRef Name="nSsgCuentaID" />
+    </Key>
+    <Property Name="nSsgCuentaID" Type="Int32" Nullable="false" />
+    <Property Name="sNombreUsuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="sClave" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sDireccionImagenPerfil" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nActivo" Type="Byte" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="SsgCuentaPermiso" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgCuentaPermiso_SsgCuenta" FromRole="SsgCuenta" ToRole="SsgCuentaPermiso" />
+    <NavigationProperty Name="SsgUsuario" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgUsuario_SsgCuenta" FromRole="SsgCuenta" ToRole="SsgUsuario" />
+  </EntityType>
+  <EntityType Name="SsgCuentaPermiso">
+    <Key>
+      <PropertyRef Name="nSsgCuentaPermisoID" />
+    </Key>
+    <Property Name="nSsgCuentaPermisoID" Type="Int32" Nullable="false" />
+    <Property Name="nSsgCuentaID" Type="Int32" />
+    <Property Name="nSsgPermisoID" Type="Int32" />
+    <Property Name="nActivo" Type="Byte" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="SsgCuenta" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgCuentaPermiso_SsgCuenta" FromRole="SsgCuentaPermiso" ToRole="SsgCuenta" />
+    <NavigationProperty Name="StbValorCatalogo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgCuentaPermiso_StbValorCatalogo" FromRole="SsgCuentaPermiso" ToRole="StbValorCatalogo" />
+  </EntityType>
+  <EntityType Name="SsgUsuario">
+    <Key>
+      <PropertyRef Name="nSsgUsuarioID" />
+    </Key>
+    <Property Name="nSsgUsuarioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nSsgCuentaID" Type="Int32" />
+    <Property Name="nStbPersonaID" Type="Int32" />
+    <Property Name="nStbCargoPersonaID" Type="Int32" />
+    <Property Name="nActivo" Type="Byte" />
+    <Property Name="dFechaExpiracion" Type="DateTime" Precision="0" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="SsgCuenta" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgUsuario_SsgCuenta" FromRole="SsgUsuario" ToRole="SsgCuenta" />
+    <NavigationProperty Name="StbPersona" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgUsuario_StbPersona" FromRole="SsgUsuario" ToRole="StbPersona" />
+    <NavigationProperty Name="StbValorCatalogo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgUsuario_StbValorCatalogo" FromRole="SsgUsuario" ToRole="StbValorCatalogo" />
+  </EntityType>
+  <EntityType Name="StbCatalogo">
+    <Key>
+      <PropertyRef Name="nStbCatalogoID" />
+    </Key>
+    <Property Name="nStbCatalogoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sCodigoInterno" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="sDescripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nActivo" Type="Int32" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="StbValorCatalogo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbValorCatalogo_StbCatalogo" FromRole="StbCatalogo" ToRole="StbValorCatalogo" />
+  </EntityType>
+  <EntityType Name="StbContactoPersona">
+    <Key>
+      <PropertyRef Name="nStbContactoPersonaID" />
+    </Key>
+    <Property Name="nStbContactoPersonaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nStbPersonaID" Type="Int32" Nullable="false" />
+    <Property Name="nTipoContactoID" Type="Int32" Nullable="false" />
+    <Property Name="sDescripcion" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="StbPersona" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbContactoPersona_StbPersona" FromRole="StbContactoPersona" ToRole="StbPersona" />
+    <NavigationProperty Name="StbValorCatalogo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbContactoPersona_StbValorCatalogo" FromRole="StbContactoPersona" ToRole="StbValorCatalogo" />
+  </EntityType>
+  <EntityType Name="StbParametro">
+    <Key>
+      <PropertyRef Name="nStbPrametroID" />
+    </Key>
+    <Property Name="nStbPrametroID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sCodigoInterno" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="sDescripcion" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="StbValorParametro" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbValorParametro_StbParametro" FromRole="StbParametro" ToRole="StbValorParametro" />
+  </EntityType>
+  <EntityType Name="StbPersona">
+    <Key>
+      <PropertyRef Name="nStbPersonaID" />
+    </Key>
+    <Property Name="nStbPersonaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sNombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sApellido1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sApellido2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sCedula" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="sDomicilio" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ScaAfiliacion" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbPersona" FromRole="StbPersona" ToRole="ScaAfiliacion" />
+    <NavigationProperty Name="SsgUsuario" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgUsuario_StbPersona" FromRole="StbPersona" ToRole="SsgUsuario" />
+    <NavigationProperty Name="StbContactoPersona" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbContactoPersona_StbPersona" FromRole="StbPersona" ToRole="StbContactoPersona" />
+  </EntityType>
+  <EntityType Name="StbValorCatalogo">
+    <Key>
+      <PropertyRef Name="nStbValorCatalogoID" />
+    </Key>
+    <Property Name="nStbValorCatalogoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nStbCatalogoID" Type="Int32" />
+    <Property Name="sCodigoInterno" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="sDescripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nActivo" Type="Int32" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ScaAfiliacion" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo" FromRole="StbValorCatalogo" ToRole="ScaAfiliacion" />
+    <NavigationProperty Name="ScaAfiliacion1" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo1" FromRole="StbValorCatalogo" ToRole="ScaAfiliacion" />
+    <NavigationProperty Name="ScaAfiliacion2" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo2" FromRole="StbValorCatalogo" ToRole="ScaAfiliacion" />
+    <NavigationProperty Name="ScaAfiliacion3" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo3" FromRole="StbValorCatalogo" ToRole="ScaAfiliacion" />
+    <NavigationProperty Name="ScaAfiliacion4" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbValorCatalogo4" FromRole="StbValorCatalogo" ToRole="ScaAfiliacion" />
+    <NavigationProperty Name="SplActividad" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SplActividad_StbValorCatalogo" FromRole="StbValorCatalogo" ToRole="SplActividad" />
+    <NavigationProperty Name="SplActividad1" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SplActividad_StbValorCatalogo1" FromRole="StbValorCatalogo" ToRole="SplActividad" />
+    <NavigationProperty Name="SsgCuentaPermiso" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgCuentaPermiso_StbValorCatalogo" FromRole="StbValorCatalogo" ToRole="SsgCuentaPermiso" />
+    <NavigationProperty Name="SsgUsuario" Relationship="SMUSURA0_FrancoNoTocarModel.FK_SsgUsuario_StbValorCatalogo" FromRole="StbValorCatalogo" ToRole="SsgUsuario" />
+    <NavigationProperty Name="StbCatalogo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbValorCatalogo_StbCatalogo" FromRole="StbValorCatalogo" ToRole="StbCatalogo" />
+    <NavigationProperty Name="StbContactoPersona" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbContactoPersona_StbValorCatalogo" FromRole="StbValorCatalogo" ToRole="StbContactoPersona" />
+    <NavigationProperty Name="StiNotificacion" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StiNotificacion_StbValorCatalogo" FromRole="StbValorCatalogo" ToRole="StiNotificacion" />
+  </EntityType>
+  <EntityType Name="StbValorParametro">
+    <Key>
+      <PropertyRef Name="nStbValorParametroID" />
+    </Key>
+    <Property Name="nStbValorParametroID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nStbParametroID" Type="Int32" />
+    <Property Name="sCodigoInterno" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="sValor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="StbParametro" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbValorParametro_StbParametro" FromRole="StbValorParametro" ToRole="StbParametro" />
+  </EntityType>
+  <EntityType Name="StiNoticia">
+    <Key>
+      <PropertyRef Name="nStiNoticiaID" />
+    </Key>
+    <Property Name="nStiNoticiaID" Type="Int32" Nullable="false" />
+    <Property Name="sTituloNotica" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="sCuerpoNoticia" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaPublicacion" Type="DateTime" Precision="0" />
+    <Property Name="sUsuarioPublica" Type="Int32" />
+    <Property Name="nNoticiaImportante" Type="Byte" />
+    <Property Name="nVisible" Type="Byte" />
+    <Property Name="sUsuarioCreacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="StiNotificacion">
+    <Key>
+      <PropertyRef Name="nStiNotificacionID" />
+    </Key>
+    <Property Name="nStiNotificacionID" Type="Int32" Nullable="false" />
+    <Property Name="nStbTipoNotificacion" Type="Int32" />
+    <Property Name="nSgrCampoUnionID" Type="Int32" />
+    <Property Name="dFechaHoraNotificacion" Type="DateTime" Precision="3" />
+    <Property Name="nLeida" Type="Int32" />
+    <Property Name="sDescripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sLinkReferencia" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="StbValorCatalogo" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StiNotificacion_StbValorCatalogo" FromRole="StiNotificacion" ToRole="StbValorCatalogo" />
+  </EntityType>
+  <Association Name="FK_Auditoria_bCampo">
+    <End Type="SMUSURA0_FrancoNoTocarModel.bCampo" Role="bCampo" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.Auditoria" Role="Auditoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bCampo">
+        <PropertyRef Name="id_campo" />
+      </Principal>
+      <Dependent Role="Auditoria">
+        <PropertyRef Name="id_campo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_bCampo_bTabla">
+    <End Type="SMUSURA0_FrancoNoTocarModel.bTabla" Role="bTabla" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.bCampo" Role="bCampo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bTabla">
+        <PropertyRef Name="id_tabla" />
+      </Principal>
+      <Dependent Role="bCampo">
+        <PropertyRef Name="id_tabla" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScaAfiliacion_StbPersona">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbPersona" Role="StbPersona" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" Role="ScaAfiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbPersona">
+        <PropertyRef Name="nStbPersonaID" />
+      </Principal>
+      <Dependent Role="ScaAfiliacion">
+        <PropertyRef Name="nStbPersonaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScaAfiliacion_StbValorCatalogo">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" Role="ScaAfiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="ScaAfiliacion">
+        <PropertyRef Name="nStbProfesionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScaAfiliacion_StbValorCatalogo1">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" Role="ScaAfiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="ScaAfiliacion">
+        <PropertyRef Name="nStbEstadoCivilID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScaAfiliacion_StbValorCatalogo2">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" Role="ScaAfiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="ScaAfiliacion">
+        <PropertyRef Name="nStbCategoriaDocenteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScaAfiliacion_StbValorCatalogo3">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" Role="ScaAfiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="ScaAfiliacion">
+        <PropertyRef Name="nStbGradoSuperiorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScaAfiliacion_StbValorCatalogo4">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" Role="ScaAfiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="ScaAfiliacion">
+        <PropertyRef Name="nStbEstadoAfiliacionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SplActividad_StbValorCatalogo">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.SplActividad" Role="SplActividad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="SplActividad">
+        <PropertyRef Name="nTipoActividadID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SplActividad_StbValorCatalogo1">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.SplActividad" Role="SplActividad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="SplActividad">
+        <PropertyRef Name="nEstadoActividadID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SsgCuentaPermiso_SsgCuenta">
+    <End Type="SMUSURA0_FrancoNoTocarModel.SsgCuenta" Role="SsgCuenta" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.SsgCuentaPermiso" Role="SsgCuentaPermiso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SsgCuenta">
+        <PropertyRef Name="nSsgCuentaID" />
+      </Principal>
+      <Dependent Role="SsgCuentaPermiso">
+        <PropertyRef Name="nSsgCuentaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SsgUsuario_SsgCuenta">
+    <End Type="SMUSURA0_FrancoNoTocarModel.SsgCuenta" Role="SsgCuenta" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.SsgUsuario" Role="SsgUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SsgCuenta">
+        <PropertyRef Name="nSsgCuentaID" />
+      </Principal>
+      <Dependent Role="SsgUsuario">
+        <PropertyRef Name="nSsgCuentaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SsgCuentaPermiso_StbValorCatalogo">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.SsgCuentaPermiso" Role="SsgCuentaPermiso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="SsgCuentaPermiso">
+        <PropertyRef Name="nSsgPermisoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SsgUsuario_StbPersona">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbPersona" Role="StbPersona" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.SsgUsuario" Role="SsgUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbPersona">
+        <PropertyRef Name="nStbPersonaID" />
+      </Principal>
+      <Dependent Role="SsgUsuario">
+        <PropertyRef Name="nStbPersonaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SsgUsuario_StbValorCatalogo">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.SsgUsuario" Role="SsgUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="SsgUsuario">
+        <PropertyRef Name="nStbCargoPersonaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StbValorCatalogo_StbCatalogo">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbCatalogo" Role="StbCatalogo" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbCatalogo">
+        <PropertyRef Name="nStbCatalogoID" />
+      </Principal>
+      <Dependent Role="StbValorCatalogo">
+        <PropertyRef Name="nStbCatalogoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StbContactoPersona_StbPersona">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbPersona" Role="StbPersona" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbContactoPersona" Role="StbContactoPersona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbPersona">
+        <PropertyRef Name="nStbPersonaID" />
+      </Principal>
+      <Dependent Role="StbContactoPersona">
+        <PropertyRef Name="nStbPersonaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StbContactoPersona_StbValorCatalogo">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbContactoPersona" Role="StbContactoPersona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="StbContactoPersona">
+        <PropertyRef Name="nTipoContactoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StbValorParametro_StbParametro">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbParametro" Role="StbParametro" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorParametro" Role="StbValorParametro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbParametro">
+        <PropertyRef Name="nStbPrametroID" />
+      </Principal>
+      <Dependent Role="StbValorParametro">
+        <PropertyRef Name="nStbParametroID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StiNotificacion_StbValorCatalogo">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbValorCatalogo" Role="StbValorCatalogo" Multiplicity="0..1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.StiNotificacion" Role="StiNotificacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbValorCatalogo">
+        <PropertyRef Name="nStbValorCatalogoID" />
+      </Principal>
+      <Dependent Role="StiNotificacion">
+        <PropertyRef Name="nStbTipoNotificacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="StbCarrera">
+    <Key>
+      <PropertyRef Name="nStbCarreraID" />
+    </Key>
+    <Property Name="nStbCarreraID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nStbFacultadID" Type="Int32" Nullable="false" />
+    <Property Name="sCodigoInterno" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="sDescripcion" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nActivo" Type="Int32" Nullable="false" />
+    <Property Name="sUsuarioCreacion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ScaAfiliacion" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbCarrera" FromRole="StbCarrera" ToRole="ScaAfiliacion" />
+    <NavigationProperty Name="StbFacultad" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbCarrera_StbFacultad" FromRole="StbCarrera" ToRole="StbFacultad" />
+    <NavigationProperty Name="StbDepartamento" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbDepartamento_StbCarrera" FromRole="StbCarrera" ToRole="StbDepartamento" />
+  </EntityType>
+  <EntityType Name="StbFacultad">
+    <Key>
+      <PropertyRef Name="nStbFacultadID" />
+    </Key>
+    <Property Name="nStbFacultadID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sCodigoInterno" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="sDescripcion" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nActivo" Type="Int32" Nullable="false" />
+    <Property Name="sUsuarioCreacion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ScaAfiliacion" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbFacultad" FromRole="StbFacultad" ToRole="ScaAfiliacion" />
+    <NavigationProperty Name="StbCarrera" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbCarrera_StbFacultad" FromRole="StbFacultad" ToRole="StbCarrera" />
+  </EntityType>
+  <Association Name="FK_ScaAfiliacion_StbCarrera">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbCarrera" Role="StbCarrera" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" Role="ScaAfiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbCarrera">
+        <PropertyRef Name="nStbCarreraID" />
+      </Principal>
+      <Dependent Role="ScaAfiliacion">
+        <PropertyRef Name="nStbCarreraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScaAfiliacion_StbFacultad">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbFacultad" Role="StbFacultad" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" Role="ScaAfiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbFacultad">
+        <PropertyRef Name="nStbFacultadID" />
+      </Principal>
+      <Dependent Role="ScaAfiliacion">
+        <PropertyRef Name="nStbFacultadID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StbCarrera_StbFacultad">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbFacultad" Role="StbFacultad" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbCarrera" Role="StbCarrera" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbFacultad">
+        <PropertyRef Name="nStbFacultadID" />
+      </Principal>
+      <Dependent Role="StbCarrera">
+        <PropertyRef Name="nStbFacultadID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="StbDepartamento">
+    <Key>
+      <PropertyRef Name="nStbDepartamentoID" />
+    </Key>
+    <Property Name="nStbDepartamentoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nStbCarreraID" Type="Int32" Nullable="false" />
+    <Property Name="sCodigoInterno" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="sDescripcion" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nActivo" Type="Int32" Nullable="false" />
+    <Property Name="sUsuarioCreacion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sUsuarioModificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dFechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ScaAfiliacion" Relationship="SMUSURA0_FrancoNoTocarModel.FK_ScaAfiliacion_StbDepartamento" FromRole="StbDepartamento" ToRole="ScaAfiliacion" />
+    <NavigationProperty Name="StbCarrera" Relationship="SMUSURA0_FrancoNoTocarModel.FK_StbDepartamento_StbCarrera" FromRole="StbDepartamento" ToRole="StbCarrera" />
+  </EntityType>
+  <Association Name="FK_ScaAfiliacion_StbDepartamento">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbDepartamento" Role="StbDepartamento" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.ScaAfiliacion" Role="ScaAfiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbDepartamento">
+        <PropertyRef Name="nStbDepartamentoID" />
+      </Principal>
+      <Dependent Role="ScaAfiliacion">
+        <PropertyRef Name="nStbDepartamentoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StbDepartamento_StbCarrera">
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbCarrera" Role="StbCarrera" Multiplicity="1" />
+    <End Type="SMUSURA0_FrancoNoTocarModel.StbDepartamento" Role="StbDepartamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StbCarrera">
+        <PropertyRef Name="nStbCarreraID" />
+      </Principal>
+      <Dependent Role="StbDepartamento">
+        <PropertyRef Name="nStbCarreraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

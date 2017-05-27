@@ -1,0 +1,161 @@
+﻿@{
+    ViewBag.Title = "Afiliacion";
+}
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-12">
+        <h2>@ViewData["SubTitle"]</h2>
+        <ol class="breadcrumb">
+            @foreach (var i in ViewData["BreadCrumb"] as IEnumerable<string>)
+            {
+                <li>
+                    @if (i.ToString().Equals("Lista"))
+                    {
+                        <a data-toggle="modal" data-target="#frmScaSolicitudAfiliacion">@i.ToString() <i class="fa fa-search"></i></a>
+                    }
+                    else
+                    {
+                        @i.ToString()
+                    }  
+                </li>
+            }
+        </ol>
+    </div>
+</div>
+
+<!-- frmScaSolicitudAfiliacion -->
+<div class="modal inmodal" data-backdrop="static" data-keyboard="false" id="frmScaSolicitudAfiliacion" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content animated flipInY">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 id="modal1-title" class="modal-title">Buscar Docentes</h4>
+                <small class="font-bold">Busca docentes Afiliados, Ex-Afiliados, entre otros</small>
+            </div>
+            <form id="frmCatalogo" method="post" action="@Url.Action("Create", "CatalogosBasicos")">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label class="col-sm-2 control-label"> Código</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <input id="cid" type="hidden" name="Catalogo_id" value="" />
+                                <input id="iCodigo" class="form-control" type="text" name="Codigo" value="@ViewBag.Codigo" disabled>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label class="col-sm-2 control-label"> Nombre</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <input id="iNombre" class="form-control" type="text" name="Nombre">
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-white" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="contact-box center-version">
+
+                <a href="profile.html">
+
+                    <img alt="image" class="img-circle" src="@Url.Content("~/Images/")franco.jpg">
+
+
+                    <h3 class="m-b-xs"><strong>Franco Ugarte</strong></h3>
+
+                    <div class="font-bold">Analista Programador</div>
+                    <address class="m-t-md">
+                        <strong>Facultad de Eelctrotecnia y Computación</strong><br>
+                        Departamento tal y tal<br>
+                        Otro dato<br>
+                        <abbr title="Phone">T:</abbr> (505) 2563-3633
+                    </address>
+
+                </a>
+                <div class="contact-box-footer">
+                    <div class="m-t-xs btn-group">
+                        @*<a class="btn btn-xs btn-white"><i class="fa fa-user-plus"></i> Confirmar </a>*@
+                        <div class="btn-group">
+                            <button data-toggle="dropdown" class="btn btn-default btn-xs dropdown-toggle" aria-expanded="false">Acción <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Confirmar</a></li>
+                                <li><a href="#">Rechazar</a></li>
+                                <li><a href="#">Inactivar</a></li>
+                                @*<li class="divider"></li>*@
+                                <li><a href="#">Reactivar</a></li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-xs btn-white"><i class="fa fa-list-ul"></i> Detalles</a>
+                        <a class="btn btn-xs btn-white"><i class="fa fa-envelope"></i> Correo</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="contact-box center-version">
+
+                <a href="profile.html">
+
+                    <img alt="image" class="img-circle" src="@Url.Content("~/Images/")franco.jpg">
+
+
+                    <h3 class="m-b-xs"><strong>John Smith</strong></h3>
+
+                    <div class="font-bold">Graphics designer</div>
+                    <address class="m-t-md">
+                        <strong>Twitter, Inc.</strong><br>
+                        795 Folsom Ave, Suite 600<br>
+                        San Francisco, CA 94107<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </address>
+
+                </a>
+                <div class="contact-box-footer">
+                    <div class="m-t-xs btn-group">
+                        @*<a class="btn btn-xs btn-white"><i class="fa fa-user-plus"></i> Confirmar </a>*@
+                        <div class="btn-group">
+                            <button data-toggle="dropdown" class="btn btn-default btn-xs dropdown-toggle" aria-expanded="false">Acción <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Confirmar</a></li>
+                                <li><a href="#">Rechazar</a></li>
+                                <li><a href="#">Inactivar</a></li>
+                                @*<li class="divider"></li>*@
+                                <li><a href="#">Reactivar</a></li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-xs btn-white"><i class="fa fa-list-ul"></i> Detalles</a>
+                        <a class="btn btn-xs btn-white"><i class="fa fa-envelope"></i> Correo</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+@section Scripts{
+
+
+
+}

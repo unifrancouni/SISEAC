@@ -1,0 +1,403 @@
+﻿@{
+    ViewBag.Title = "Afiliacion";
+}
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-12">
+        <h2>@ViewData["SubTitle"]</h2>
+        <ol class="breadcrumb">
+            @foreach (var i in ViewData["BreadCrumb"] as IEnumerable<string>)
+            {
+                <li>
+                    <a>@i.ToString()</a>
+                </li>
+            }
+        </ol>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5> <i class="fa fa-user-plus"></i> Solicitud de Afiliación </h5>
+                <div class="ibox-tools">
+
+                </div>
+                <div class="ibox-content">
+                    <form id="frmSolicitud" class="form-horizontal" method="post">
+
+                        <div class="form-group">
+                            <h2><label>I. Datos Generales</label></h2>
+                        </div>
+
+                        <div class="form-group has-success">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.a) Nombre *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sNombre" tabindex="0" style="text-transform:uppercase" />
+                                </div>
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.a) 1er Apellido *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sApellido1" style="text-transform:uppercase" />
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.a) 2do Apellido</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sApellido2" style="text-transform:uppercase" />
+                                </div>
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.b) No. INSS *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="nINSS" />
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.c) Cédula No. *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sCedula" data-mask="999-999999-9999a" style="text-transform:uppercase" />
+                                </div>
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.d) Estado Civil *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <select class="select2_demo_1 form-control input-sm" name="lEstadoCivil">
+                                        @foreach (var i in ViewData["EstadoCivil"] as IEnumerable<string[]>)
+                                        {
+                                            <option value="@i[0]">@i[1]</option>
+                                        }
+                                    </select>
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-sm-12">
+                                    <label>I.e) Domicilio</label>
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sDomicilio" style="text-transform:uppercase" />
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-sm-12">
+                                    <span class="h4">I.f Teléfonos</span>
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.f.1) Domiciliar</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sTelefonoDomiciliar" />
+                                </div>
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.f.2) Móvil 1 *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sTelefonoMovil1" />
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.f.3) Móvil 2</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sTelefonoMovil2" />
+                                </div>
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.f.4) UNI</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sTelefonoUNI" />
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label> Ext</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sTelefonoExt" />
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.g) Correo 1 *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sCorreo1" />
+                                </div>
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.h) Correo 2</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sCorreo2" />
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+
+                                <div class="col-sm-12">
+                                    <label>I.i) Sitio Web Personal</label>
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="sSitioWeb" />
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.j) Número de Empleado UNI *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="nNoEmpleado" />
+                                </div>
+                                <div class="col-md-2 col-sm-12">
+                                    <label>I.k) Año de ingreso a la UNI *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input class="form-control input-sm" type="text" name="nAnioIngreso" />
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12 pull-left">
+                                    <label>I.l) Fecha de Solicitud *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12 pull-left">
+                                    <div class="input-group date">
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                        <input type="text" class="form-control input-sm" value="@ViewData["FechaActual"]" name="dFechaSolicitud" required>
+                                    </div>
+                                </div>
+                                @*<div class="col-md-6 col-sm-12">
+                        <label>I.l) Fecha de Solicitud *</label>
+                    </div>*@
+
+                                <br />
+                                <br />
+
+                                <div class="col-sm-12">
+                                    <span class="h3"><strong>II. Datos Académicos </strong></span>
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>II.a) Categoría Docente *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <select class="select2_demo_1 form-control input-sm" name="lCategoriaDocente">
+                                        @foreach (var i in ViewData["CategoriaDocente"] as IEnumerable<string[]>)
+                                        {
+                                            <option value="@i[0]">@i[1]</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-sm-12">
+                                    <label>II.b) Grado Académico Superior Obtenido *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <select class="select2_demo_1 form-control input-sm" name="lGradoAcademicoSuperior">
+                                        @foreach (var i in ViewData["GradoAcademico"] as IEnumerable<string[]>)
+                                        {
+                                            <option value="@i[0]">@i[1]</option>
+                                        }
+                                    </select>
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>II.c) Profesión *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <select class="select2_demo_1 form-control input-sm" name="lProfesion">
+                                        @foreach (var i in ViewData["profesion"] as IEnumerable<string[]>)
+                                        {
+                                            <option value="@i[0]">@i[1]</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-sm-12">
+                                    <span class="h3"><strong>II. Ubicación Docente </strong></span>
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>III.a) Facultad *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <select class="select2_demo_1 form-control input-sm" name="lFacultad">
+                                        @foreach (var i in ViewData["Facultad"] as IEnumerable<string[]>)
+                                        {
+                                            <option value="@i[0]">@i[1]</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-sm-12">
+                                    <label>III.b) Carrera</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <select class="select2_demo_1 form-control input-sm" name="lCarrera">
+                                        @foreach (var i in ViewData["carrera"] as IEnumerable<string[]>)
+                                        {
+                                            <option value="@i[0]">@i[1]</option>
+                                        }
+                                    </select>
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-md-2 col-sm-12">
+                                    <label>III.c) Dpto. Académico *</label>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <select class="select2_demo_1 form-control input-sm" name="lDepartamentoAcademico">
+                                        @foreach (var i in ViewData["departamento"] as IEnumerable<string[]>)
+                                        {
+                                            <option value="@i[0]">@i[1]</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="col-sm-12">
+                                    <label>III.d) Aprobado en Acta de Consejo de Facultad número *</label>
+                                </div>
+                                <div class="col-sm-2">
+                                    <input class="form-control input-sm" type="text" name="nNoActa" />
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input class="btn btn-primary" type="submit" value="Solicitar" />
+                                <input class="btn btn-default" type="submit" value="Guardar Solicitud" />
+                            </div>
+                            <div class="col-md-12">
+                                
+                            </div>
+                        </div>
+                        
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/plugins/select2/")select2.min.css">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/plugins/datepicker3/")datepicker3.css">
+}
+
+@section Scripts{
+
+    <script src="@Url.Content("~/Scripts/plugins/inputmask/inputmask.js")"></script>
+    <script src="@Url.Content("~/Scripts/plugins/select2/")select2.full.min.js"></script>
+    <script src="@Url.Content("~/Scripts/plugins/datepicker3/")datepicker.js"></script>
+    <script src="@Url.Content("~/Scripts/plugins/validate/")jquery.validate.min.js"></script>
+    <script src="@Url.Content("~/scripts/solicitudvalidate/validatesolicitud.js")"></script>
+
+    <script>
+        $(".select2_demo_1").select2();
+
+        $.fn.datepicker.dates['en'] = {
+            days: ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"],
+            daysShort: ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab"],
+            daysMin: ["Do", "Lu", "Ma", "Mi", "Ju", "Vi", "Sa"],
+            months: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+            monthsShort: ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+            today: "(Hoy)",
+            clear: "Limpiar",
+            format: "dd/mm/yyyy",
+            titleFormat: "MM yyyy", /* Leverages same syntax as 'format' */
+            weekStart: 0
+        };
+
+        $('.input-group.date').datepicker({
+            todayBtn: "linked",
+            keyboardNavigation: false,
+            forceParse: false,
+            calendarWeeks: true,
+            autoclose: true,
+            maxdate: 0
+        }).on('change', function () {
+            $(this).valid();
+        });
+
+        validarSolicitudAfiliacion();
+
+    </script>
+
+}
